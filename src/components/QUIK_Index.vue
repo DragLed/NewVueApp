@@ -29,24 +29,24 @@
           </div>
           <div class="poisk">
             <input type="text" name="" value="" placeholder="Что посмотреть в Городе?">
-            <img src="image\magnifier.png" alt="ТЫ ЛОХ">
+            <button></button>
           </div>
         </div>
         <div class="content">
           <div class="content1">
-            <div class="imgspb1"><img src="image\photo_2024-11-26_19-37-44.jpg" alt=""></div>
+            <div class="imgspb1"></div>
             <div class="text1">
               <span>Достопримечательности в Санкт-Петербурге можно встретить буквально на каждом шагу памятники, дворцы, музен, галерен, театры. В одном только центре города это тысячи интересных для туристов мест. У приезжих (особенно тех, кто посещает Санкт Петербург впервые) всегда разбегаются глаза: куда броситься и что посмотреть в первую очередь? Кто то направляется в Эрмитаж и Русский музей. Кто-то любит пешие прогулки по историческому центру. Многие едут по святым местам, другие мечтают увидеть императорские пригороды Петергоф. Пушкин, Павловск. А многие хотят все и сразу! Мы составили топ-90+ достопримечательностей Санкт- Петербурга, которые обязательно стоит увидеть.</span>
             </div>
           </div>
           <div class="content2">
-            <div class="imgspb2"><img src="image\photo_2024-11-26_19-39-15.jpg" alt=""></div>
+            <div class="imgspb2"></div>
             <div class="text2">
               <span>Достопримечательности в Санкт-Петербурге можно встретить буквально на каждом шагу памятники, дворцы, музен, галерен, театры. В одном только центре города это тысячи интересных для туристов мест. У приезжих (особенно тех, кто посещает Санкт Петербург впервые) всегда разбегаются глаза: куда броситься и что посмотреть в первую очередь? Кто то направляется в Эрмитаж и Русский музей. Кто-то любит пешие прогулки по историческому центру. Многие едут по святым местам, другие мечтают увидеть императорские пригороды Петергоф. Пушкин, Павловск. А многие хотят все и сразу! Мы составили топ-90+ достопримечательностей Санкт- Петербурга, которые обязательно стоит увидеть.</span>
             </div>
           </div>
           <div class="content3">
-            <div class="imgspb3"><img src="image\photo_2024-11-26_19-39-18.jpg" alt=""></div>
+            <div class="imgspb3"></div>
             <div class="text3">
               <span>Достопримечательности в Санкт-Петербурге можно встретить буквально на каждом шагу памятники, дворцы, музен, галерен, театры. В одном только центре города это тысячи интересных для туристов мест. У приезжих (особенно тех, кто посещает Санкт Петербург впервые) всегда разбегаются глаза: куда броситься и что посмотреть в первую очередь? Кто то направляется в Эрмитаж и Русский музей. Кто-то любит пешие прогулки по историческому центру. Многие едут по святым местам, другие мечтают увидеть императорские пригороды Петергоф. Пушкин, Павловск. А многие хотят все и сразу! Мы составили топ-90+ достопримечательностей Санкт- Петербурга, которые обязательно стоит увидеть.</span>
             </div>
@@ -66,16 +66,16 @@
         </div>
        <div class="footericons">
          <div class="iconsI">
-           <img src="image/M.png" alt="">
-           <img src="image/twitter.png" alt="">
-           <img src="image/inst.png" alt="">
-           <img src="image/phone.png" alt="">
+           <img src="\image/M.png" alt="">
+           <img src="\image/twitter.png" alt="">
+           <img src="\image/inst.png" alt="">
+           <img src="\image/phone.png" alt="">
          </div>
          <div class="iconsII">
-           <img src="image/tg.png" alt="">
-           <img src="image/whatsup.png" alt="">
-           <img src="image/facebook.png" alt="">
-           <img src="image/vk.png" alt="">
+           <img src="\image/tg.png" alt="">
+           <img src="\image/whatsup.png" alt="">
+           <img src="\image/facebook.png" alt="">
+           <img src="\image/vk.png" alt="">
          </div>
        </div>
        <div class="FooterQUIKSPB"><a href="index.html">QUIKSPB</a></div>
@@ -206,9 +206,16 @@
   outline: 0;
   margin: 7px;
   padding: 10px;
-  margin-left: 15px;
 
 
+}
+
+.poisk button {
+  background-image: url("image/magnifier.png");
+  width: 35px;
+  height: 35px;
+  border: None;
+  
 }
 
 #QUIKSPB{
@@ -235,10 +242,6 @@ input:hover{
   outline: 0;
 }
 
-.poisk img {
-  width: 35px;
-  height: 35px;
-}
 
 .content{
   display: flex;
@@ -247,14 +250,29 @@ input:hover{
 }
 
 
-.content img{
-  width: 300px;
+
+.imgspb3 {
+  background-image: url("image/photo_2024-11-26_19-39-18.jpg");
+  width: 1500px;
   height: 200px;
   border-radius: 20px;
   filter: drop-shadow(20px 20px 15px #88afb3);
 }
-.content div {
-  padding: 20px;
+
+.imgspb2 {
+  background-image: url("image/photo_2024-11-26_19-39-15.jpg");
+  width: 1500px;
+  height: 200px;
+  border-radius: 20px;
+  filter: drop-shadow(20px 20px 15px #88afb3);
+}
+
+.imgspb1 {
+  background-image: url("image/photo_2024-11-26_19-37-44.jpg");
+  width: 1500px;
+  height: 200px;
+  border-radius: 20px;
+  filter: drop-shadow(20px 20px 15px #88afb3);
 }
 
 .content1 {

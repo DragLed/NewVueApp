@@ -104,14 +104,14 @@ onMounted(() => {
     border: None;
     font-size: 18px;
     border-radius: 25px;
-    background-color: #3B7D8C;
+    background-color: #357ABD;
     color: #ffffff;
     box-shadow: 0px 4px 10px rgba(74, 144, 226, 0.3);
 }
 
 .Input button:hover {
     opacity: 0.85;
-    background-color: #357ABD;
+    background-color: #3B7D8C;
 }
 
 .Note {
